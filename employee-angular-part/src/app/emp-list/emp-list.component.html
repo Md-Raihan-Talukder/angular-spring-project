@@ -20,7 +20,8 @@
             <th>{{emp.mobileNo}}</th>
             <th>
                 <button class="btn" style="margin-right: 5px;" (click)="updateEmp(emp.id)"><i class="fa fa-edit"></i></button>
-                <button class="btn-d" (click)="deleteEmp(emp.id)"><i class="fa fa-trash"></i></button>
+                <button class="btn" style="margin-right: 5px;" (click)="gotoEmpProfile(emp.id)"><i class="fa fa-user"></i></button>
+                <button class="btn-d"(click)="deleteEmp(emp.id)"><i class="fa fa-trash"></i></button>
             </th>
         </tr>
     </tbody>

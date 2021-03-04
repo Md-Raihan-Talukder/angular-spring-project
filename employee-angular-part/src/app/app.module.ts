@@ -7,14 +7,18 @@ import { AppComponent } from './app.component';
 import { EmpListComponent } from './emp-list/emp-list.component';
 import { NewEmployeeComponent } from './new-employee/new-employee.component';
 import { FormsModule } from '@angular/forms';
-import { UpdateEmployeeComponent } from './update-employee/update-employee.component'
+import { UpdateEmployeeComponent } from './update-employee/update-employee.component';
+import { ProfileEmployeeComponent } from './profile-employee/profile-employee.component';
+import { AboutComponent } from './about/about.component'
 
 @NgModule({
   declarations: [
     AppComponent,
     EmpListComponent,
     NewEmployeeComponent,
-    UpdateEmployeeComponent
+    UpdateEmployeeComponent,
+    ProfileEmployeeComponent,
+    AboutComponent
   ],
   imports: [
     BrowserModule,
