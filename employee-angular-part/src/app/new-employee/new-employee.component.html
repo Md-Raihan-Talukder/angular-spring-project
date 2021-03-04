@@ -1,0 +1,25 @@
+<h2>New Employee Register</h2>
+
+<form (ngSubmit) = "newEmpSubmit()">
+    <div class="form-group">
+        <label>First Name</label>
+        <input type="text" class="form-control" id="firstName" [(ngModel)]="employee.firstName" name="firstName"/>
+    </div>
+    <div class="form-group">
+        <label>Last Name</label>
+        <input type="text" class="form-control" id="firstName" [(ngModel)]="employee.lastName" name="lastName"/>
+    </div>
+    <div class="form-group">
+        <label>Employee Id</label>
+        <input type="text" class="form-control" id="firstName" [(ngModel)]="employee.employeeId" name="employeeId"/>
+    </div>
+    <div class="form-group">
+        <label>Email</label>
+        <input type="text" class="form-control" id="firstName" [(ngModel)]="employee.emailAdd" name="emailAdd"/>
+    </div>
+    <div class="form-group">
+        <label>Contact No.</label>
+        <input type="text" class="form-control" id="firstName" [(ngModel)]="employee.mobileNo" name="mobile"/>
+    </div>
+    <button class="btn btn-success" type="submit">Submit</button>
+</form>

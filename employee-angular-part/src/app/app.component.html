@@ -1,0 +1,33 @@
+<div class="wrapper">
+
+  <!-- Sidebar -->
+  <nav id="sidebar">
+    <div class="sidebar-header">
+        <h3>Menus</h3>
+    </div>
+
+    <ul class="list-unstyled components">
+        <li>
+            <a routerLink="employeeList" routerLinkActive="active">Home</a>
+        </li>
+        <li>
+            <a routerLink="register" routerLinkActive="active">New Employee</a>
+        </li>
+        <li>
+            <a href="#">About</a>
+        </li>
+    </ul>
+</nav>
+
+  <!-- Page Content -->
+  <div id="content">
+      <h1 class="text-center" style="height: 60px; background-color: cadetblue;"> Employee Management </h1>
+
+      <div class="container" style="padding-top: 20px;">
+        <router-outlet></router-outlet>
+      </div>
+      
+      <!-- <app-emp-list></app-emp-list> -->
+  </div>
+
+</div> 
